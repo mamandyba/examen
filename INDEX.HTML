@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription en ligne - Université du Burundi</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid white; /* Ajout des bordures */
+    }
+    th {
+      background-color:white;
+    }
+    body{
+        background-color: aqua;
+    }
+    button{
+        background-color: blue;
+        color: white;
+    }
+    p a{
+        color: rgb(136, 29, 118);
+    }
+    footer{
+        text-align: center;
+    }
+   
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inscription en ligne à l'Université du Burundi</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bienvenue à l'Université du Burundi !</h2>
+      <p>Nous sommes heureux de vous accueillir pour cette nouvelle année académique. Inscrivez-vous en ligne dès maintenant pour rejoindre notre établissement.</p>
+      <p>Pour plus d'informations sur l'université, visitez notre <a href="https://www.ub.edu.bi">site web officiel</a>.</p>
+    </section>
+    </section>
+
+    <section>
+      <h2>Programmes d'études</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Faculté et Institut</th>
+            <th>Programmes</th>
+            <th>Durée</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Faculté des Sciences</td>
+            <td>
+              <ul>
+                <li>Licence en Informatique</li>
+                <li>Licence en Mathématiques</li>
+              </ul>
+            </td>
+            <td>4 ans</td>
+          </tr>
+          <tr>
+            <td>Institut Pedagoque Applique </td>
+            <td>
+              <ul>
+                <li>Licence en Biologie et Chimie</li>
+                <li>Licence en Mathématiques</li>
+                <li>Licence en KIRUNDI-KISWAHILI</li>
+                <li> Licence en ANGLAIS</li>
+                <LI> Licence en Francais</LI>
+              </ul>
+            </td>
+            <td>3 ans</td>
+          </tr>
+          <tr>
+            <td>Faculté de Droit</td>
+            <td>
+              <ul>
+                <li>Licence en Droit</li>
+              </ul>
+            </td>
+            <td>3 ans</td>
+          </tr>
+          <tr>
+            <td>Faculté des Sciences Économiques et de Gestion</td>
+            <td>
+              <ul>
+                <li>Licence en Économie</li>
+                <li>Licence en Gestion</li>
+              </ul>
+            </td>
+            <td>3 ans</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Formulaire d'inscription</h2>
+      <form>
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br>
+      
+
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" name="prenom" required><br>
+        <label for="matricule">MATRICULE</label><br>
+        <input type="text" required><br>
+
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="programme">Programme d'études :</label><b></b>
+        <select id="programme" name="programme" required><br>
+          <option value="">Sélectionnez un programme</option><br>
+          <option value="informatique">Licence en Informatique</option>
+          <option value="mathematiques">Licence en Mathématiques</option>
+          <option value="droit">Licence en Droit</option>
+          <option value="economie">Licence en Économie</option>
+          <option value="gestion">Licence en Gestion</option>
+          <option value="">Licence en Biologie et Chimie</option>
+          <option value="">Licence en KIRUNDI-KISWAHILI</option>
+          <option value="">Licence en ANGLAIS</option>
+          <option value="">Licence en Francais</option>
+          
+
+        </select><br>
+
+
+        <button type="submit">S'inscrire</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Université du Burundi. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
